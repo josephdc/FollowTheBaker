@@ -1,0 +1,32 @@
+article {
+  float: left;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  padding: 4%;
+}
+
+#CIA-pic {
+  width: 300px;
+  margin-left: 12%;
+  padding: 5% 2% 0% 6%;
+}
+
+#about {
+  /*margin: 10%;*/
+  background-image: url(../images/bg-images/WoodBGnew.png);
+  background-size: cover;
+  padding: 3%;
+}
+
+aside {
+  margin: 0 auto;
+  width: 65%;
+  height: auto;
+  padding: 2%;
+  border: 7px solid lightgrey;
+  padding-top: 3%;
+  padding-left: 2%;
+  padding-bottom: 0;
+  background-color: white;
+}
