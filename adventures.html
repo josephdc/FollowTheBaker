@@ -1,33 +1,50 @@
+<html>
 
 <link href="css/header.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
 <link href="css/adventures.css" rel="stylesheet">
 
+<link href="js/dropdown.js"></link>
+
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 <body id="adventures">
     <header>
-        <a href="baker.html" id="logo">Follow The Baker</a>
+        <a href="baker.html" id="logo" class="nav-new">Follow The Baker</a>
         <nav>
-            <a href="#" id="menu-icon"></a>
-            <ul>
-              <li><a href="baker.html">Home</a></li>
-              <li><a href="baker.html">About</a></li>
-              <li><a href="adventures.html">Adventures</a></li>
-              <li><a href="recipes.html">Recipes</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="#connect">Connect</a></li>
-            </ul>
+            <a href="#" id="menu-icon" class="nav-new"></a>
+              <div id="top_nav">
+                <ul class="gallery-nav">
+                  <li><a href="baker.html">Home</a></li>
+                  <li><a href="baker.html">About</a></li>
+                  <li><a href="#adventures">Adventures</a>
+                      <ul>
+                      <li><a href="#">CIA</a></li>
+                      <li><a href="#">Giada Holiday</a></li>
+                      <li><a href="#">Bleu Ribbon Kitchen</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="recipes.html">Recipes</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="#connect">Connect</a></li>
+                </ul>
+              </div>
         </nav>
     </header>
 
 <div id="border">
-      <div class="adventure-title">
+      <div class="adventure-title" id="top">
         <h1>BAKING ADVENTURES</h1>
       </div>
   <aside>
     <h1>Bootcamp at CIA - Napa Valley</h1>
-        <ul class="Adventures-CIA">
+        <ul class="Adventures-CIA" id="CIA">
             <li><img src="images/adventures/CIA1-Bread.jpg"></li>
             <li><img src="images/adventures/CIA2-Group.jpg"></li>
             <li><img src="images/adventures/CIA3-Tour.jpg"></li>
@@ -52,30 +69,36 @@
 
 <div id="border">
   <aside>
-        <h1>Giada's Tis the season</h1>
-            <div class="Main-Pic">
-              <img src="images/adventures/Giada2.jpg">
+        <h1>Giada's Holiday Handbook</h1>
+            <div class="Main-Pic" id="Giada-Holiday">
+              <img src="images/adventures/holidayhandbook.jpg">
             </div>
         <article>
             <p>
             As a fan of The Food Network I was thrilled to be asked as a guest on Giada's first season of Giada Entertains. The episode was titled  "Tis the Season" in which Giada kicked off the holiday season with a wonderful open house. We ate, we drank, we laughed and before I knew it I had forgotten that the cameras were rolling.
             It goes without saying that Giada really knows how to entertain. Not only was the food and drink top notch but she was kind enough to send us all home with a personalized gift. I took away many inventive decorating ideas, some great new recipes and best of all developed some new friendships. This was definitely a fun experience that I will forever remember.
             </p>
-            <p><b>You can find my favorite recipe from the episode below. It is definitely a crowd pleaser!</b>
-
-            <a href="http://www.foodnetwork.com/recipes/giada-de-laurentiis/white-velvet-soup.html" target="_blank">Click HERE!</a></p>
-
+         <article class="updates">
             <p>
-            2016 UPDATE - Stay tuned for Season 2
+            You can find my favorite recipe from the episode below. It is definitely a crowd pleaser!
+            <a href="http://www.foodnetwork.com/recipes/giada-de-laurentiis/white-velvet-soup.html" target="_blank"><br>Click HERE!</a>
+            </p>
+        <article>
+
+            <hr>
+        <article class="updates">
+            <p>
+            2016 UPDATE <br> Stay tuned for Season 2
             I have been asked back for the 2017 Season of Giada Entertains.  Updates to follow on episodes and air dates.
             </p>
+        </article>
       </article>
 
 
         <ul class="Adventures-CIA">
             <li><img src="images/adventures/Giada1.jpg"></li>
-            <li><img src="images/adventures/Giada1.jpg"></li>
-            <li><img src="images/adventures/Giada1.jpg"></li>
+            <li><img src="images/adventures/Giada2.jpg"></li>
+            <li><img src="images/adventures/Giada3.jpg"></li>
         </ul>
 
   </aside>
@@ -84,9 +107,9 @@
 <div id="border">
   <aside>
     <h1>Bleu Ribbon Kitchen at Le Cordon Bleu</h1>
-        <ul class="Adventures-CIA">
+        <ul class="Adventures-CIA" id="BR">
             <li><img src="images/adventures/BleuRibbon1.jpg"></li>
-            <li><img src="images/adventures/BleuRibbon1.jpg"></li>
+            <li><img src="images/adventures/BleuRibbon4.jpg"></li>
             <li><img src="images/adventures/BleuRibbon3.jpg"></li>
         </ul>
             <article>
@@ -101,8 +124,8 @@
             </article>
         <ul class="Adventures-CIA">
             <li><img src="images/adventures/BleuRibbon2.jpg"></li>
-            <li><img src="images/adventures/CIA5-Mixer.jpg"></li>
-            <li><img src="images/adventures/CIA6-US.jpg"></li>
+            <li><img src="images/adventures/BleuRibbon5.jpg"></li>
+            <li><img src="images/adventures/BleuRibbon6.jpg"></li>
         </ul>
   </aside>
 </div>
@@ -111,36 +134,15 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="top-page">
+    <button><a href="#top">Top of page</a></button>
+</div>
 
 <footer id="connect">
     <section>
-        <h3><b>Baking Enthusiast - Brian Williams</b></h3>
-            <p><b>West Hollywood, CA.</b><br><br>
-            1111 La Cienega<br>
-            Say Hello<br>
-            <a href="mailto:brian@followthebaker.com">Brian Williams</a>
+        <h3><b>Baking Enthusiast <br> Brian Williams</b></h3>
+            <p>West Hollywood, CA.<br><br>
+            <a href="mailto:brian@followthebaker.com">CONNECT</a>
             </p>
     </section>
 
@@ -163,4 +165,4 @@
 </footer>
 
 </body>
-
+</html>

@@ -11,6 +11,7 @@
 }
 .blueberry {
   max-width: 960px;
+ /* max-width: 500px;*/
   margin-top: 110px;
 }
 
@@ -45,8 +46,8 @@
 .blueberry .pager li a,
 .blueberry .pager li a span {
   display: block;
-  height: 4px;
-  width: 4px;
+  height: 8px;
+  width: 8px;
 }
 .blueberry .pager li a {
   padding: 18px 8px;
@@ -56,10 +57,10 @@
 }
 .blueberry .pager li a span {
   overflow: hidden;
-  background: #c0c0c0;
+  background: white;
   text-indent: -9999px;
 -webkit-border-radius: 2px;
    -moz-border-radius: 2px;
   border-radius: 2px;
 }
-.blueberry .pager li.active a span { background: #404040; }
+.blueberry .pager li.active a span { background: darkgrey; }
